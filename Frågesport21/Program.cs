@@ -41,4 +41,6 @@ else {
     Console.WriteLine("Det var feeel:( Rätt svar var 1");
 }
 
-Console.WriteLine ("Tack för att du gjort min frågesport! Hoppas du lärde dig något nytt:)");
+Console.WriteLine("Tack för att du gjort min frågesport! Hoppas du lärde dig något nytt:)");
+Console.WriteLine("Tryck ENTER för att avsluta");
+Console.ReadLine();
