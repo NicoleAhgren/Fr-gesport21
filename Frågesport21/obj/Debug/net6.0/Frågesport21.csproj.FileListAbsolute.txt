@@ -1,0 +1,15 @@
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\obj\Debug\net6.0\Frågesport21.csproj.AssemblyReference.cache
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\obj\Debug\net6.0\Frågesport21.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\obj\Debug\net6.0\Frågesport21.AssemblyInfoInputs.cache
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\obj\Debug\net6.0\Frågesport21.AssemblyInfo.cs
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\obj\Debug\net6.0\Frågesport21.csproj.CoreCompileInputs.cache
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\bin\Debug\net6.0\Frågesport21.exe
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\bin\Debug\net6.0\Frågesport21.deps.json
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\bin\Debug\net6.0\Frågesport21.runtimeconfig.json
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\bin\Debug\net6.0\Frågesport21.dll
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\bin\Debug\net6.0\Frågesport21.pdb
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\obj\Debug\net6.0\Frågesport21.dll
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\obj\Debug\net6.0\refint\Frågesport21.dll
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\obj\Debug\net6.0\Frågesport21.pdb
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\obj\Debug\net6.0\Frågesport21.genruntimeconfig.cache
+C:\Users\Nicole\Documents\Skola\Frågesport21\Frågesport21\obj\Debug\net6.0\ref\Frågesport21.dll
