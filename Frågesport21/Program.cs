@@ -1,46 +1,94 @@
-﻿using System;
-string F1;
-string F2;
-string F3;
+﻿using System;       
+            
+    int points = 0;
+    string Svar;
+    Console.WriteLine("Vilket år öppnades det allra första NTI-Gymnasiet?");
+    Console.WriteLine("1. 1999");
+    Console.WriteLine("2. 2002");
+    Console.WriteLine("3. 2005");
+    Svar = Console.ReadLine();
 
-Console.WriteLine("Quiz om NTI");
-Console.WriteLine(" ");
-Console.WriteLine("Fråga 1: Vilket år öppnades det första NTI-Gymnasiet?");
-Console.WriteLine("1. 1999, 2. 2002, 3. 2005");
-Console.WriteLine("Svara gärna med 1, 2 eller 3");
-F1 = Console.ReadLine();
+    
+    if (Svar == "2" || Svar == "2.") { 
+        Console.WriteLine(" ");
+        Console.WriteLine("Rätt svar! Du får 1 poäng");
+        points++;
+    }
 
-if (F1 == "2") {
-    Console.WriteLine("Bra jobbat det var rätt svar");
-}
-else {
-    Console.WriteLine("Det var tyvärr fel:( Rätt svar är svar nummer 2");
-}
+    else 
+    {
+        Console.WriteLine(" ");        
+        Console.WriteLine("Det var tyvärr fel svar:( Inget poäng till dig!");
+    }
+    
 
-Console.WriteLine(" ");
-Console.WriteLine("Fråga 2: Hur många NTI-Skolor finns det i svergie?");
-Console.WriteLine("1. 19st, 2. 24st, 3. 29st");
-F2 = Console.ReadLine();
+    Console.WriteLine(" ");
+    string Svar2;
+    Console.WriteLine("Hur många NTI-Gymnasium finns det i Sverige?");
+    Console.WriteLine("1. 18st");
+    Console.WriteLine("2. 25st");
+    Console.WriteLine("3. 29st");
+    Console.WriteLine(" ");
+    Svar2 = Console.ReadLine();
 
-if (F2 == "3") {
-    Console.WriteLine("Amazing det var rätt svar:D");
-}
-else {
-    Console.WriteLine("Det var fel:/ Rätt svar var 3");
-}
+    if (Svar2 == "3" || Svar == "3.")
+    {
+        Console.WriteLine(" ");
+        Console.WriteLine("Rätt svar! Du får 1 poäng");
+        points++;
+    }
+    else
+    {
+        Console.WriteLine(" ");
+        Console.WriteLine("Det var tyvärr fel svar:( Inget poäng till dig!");
+    }
 
-Console.WriteLine(" ");
-Console.WriteLine("Fråga 3: Vad står NTI för?");
-Console.WriteLine("1. Nordens Teknikerinstitut, 2. Natur-tekniska institutet, 3. Natur och teknikinstitutet");
-F3 = Console.ReadLine();
+    string Svar3;
+    Console.WriteLine(" ");
+    Console.WriteLine("Vad står 'NTI' för?");
+    Console.WriteLine("1. NaturTekinska Institutet");
+    Console.WriteLine("2. Nordens Teknikerinstitut");
+    Console.WriteLine("3. Nicoles Teknikinstitut");
+    Console.WriteLine(" ");
+    Svar3 = Console.ReadLine();
 
-if (F3 == "1") {
-    Console.WriteLine("Korrekt, bra jobbat!");
-}
-else {
-    Console.WriteLine("Det var feeel:( Rätt svar var 1");
-}
+    if (Svar3 == "2" || Svar3 == "2.")
+    {
+        Console.WriteLine(" ");
+        Console.WriteLine("Rätt svar! Du får 1 poäng");
+        points++;
+    }
+    else
+    {
+        Console.WriteLine(" ");
+        Console.WriteLine("Det var tyvärr fel svar:( Inget poäng till dig!");
+    }
 
-Console.WriteLine("Tack för att du gjort min frågesport! Hoppas du lärde dig något nytt:)");
-Console.WriteLine("Tryck ENTER för att avsluta");
-Console.ReadLine();
+    string SistaFrågan;
+    Console.WriteLine(" ");
+    Console.WriteLine("4. Hur många olika linjer finns det på NTI-Stockholm?");
+    Console.WriteLine("1. 3 olika linjer");
+    Console.WriteLine("2. 4 olika linjer");
+    Console.WriteLine("3. 5 olika linjer");
+    Console.WriteLine(" ");
+    SistaFrågan = Console.ReadLine();
+
+    if (SistaFrågan == "1" || SistaFrågan == "1.")
+    {
+        Console.WriteLine(" ");
+        Console.WriteLine("Rätt svar! Du får 1 poäng");
+        Console.WriteLine(" ");
+        points++;
+        Console.WriteLine($"{points}/4 poäng!");
+        Console.ReadLine();
+    }
+    else
+    {
+        Console.WriteLine(" ");
+        Console.WriteLine("Det var tyvärr fel svar:( Inget poäng till dig!");
+        Console.WriteLine(" ");
+        Console.WriteLine($"Du fick {points}/4 poäng!");
+        Console.WriteLine(" ");
+        Console.ReadLine();
+    }
+    
